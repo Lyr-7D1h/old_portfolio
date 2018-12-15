@@ -40,7 +40,7 @@ td {
     height: 100%;
     position: fixed;
 
-    background-image: url('/images/city.jpeg');
+    background-image: url('./images/city.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 
