@@ -18,9 +18,9 @@ var no_shake = [];
 
 $(document).ready(function () {
     $('.title').fadeIn(3000, () => {
+        $('.update_block').show();
     });
     $('.mouse_scroll').fadeIn(4000);
-    $('.update_block').fadeIn();
 
     $(window).scroll(function(){
         // console.log($(window).scrollTop());
