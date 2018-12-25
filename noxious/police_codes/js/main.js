@@ -7,6 +7,7 @@ $(document).ready(function () {
     let wait = 2;
     for (i=0;i<td.length;i++) {
         if (i%2 == 0) {
+            td[i].style.textAlign = 'center';
             if (wait === 2) {
                 td[i].style.backgroundColor = 'rgba(100,100,100,.8)'; 
                 td[i+1].style.backgroundColor = 'rgba(100,100,100,.8)'; 

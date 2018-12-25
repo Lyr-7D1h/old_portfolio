@@ -34,6 +34,12 @@ td {
     background-color: rgba(50,50,50,.8);
     padding: 5px;
     color: white;
+    
+    margin: 0;
+    border: none;
+}
+table {
+    border-spacing: 0;
 }
 .background {
     width: 100%;
